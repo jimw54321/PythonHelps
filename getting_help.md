@@ -4,6 +4,6 @@
 
 `help(function)`        function help
 
-`help('modules)`        list of available modules
+`help('modules')`        list of available modules
 
 `help(package.module)`  help for module in different package
