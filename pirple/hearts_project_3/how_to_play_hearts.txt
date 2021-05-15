@@ -1,0 +1,80 @@
+###############################################################################
+
+                #    #  ######    ##    #####   #####   ####
+                #    #  #        #  #   #    #    #    #
+                ######  #####   #    #  #    #    #     ####
+                #    #  #       ######  #####     #         #
+                #    #  #       #    #  #   #     #    #    #
+                #    #  ######  #    #  #    #    #     ####
+###############################################################################
+
+1. Introduction
+Hearts is a trick-avoidance game. This means that usually it is undesirable
+to "win" a trick.
+
+The rules implemented are based on:
+https://bicyclecards.com/how-to-play/hearts
+
+The 4-player version is used. Also, the "Jack of Diamonds" rule is not
+implemented.
+
+###############################################################################
+
+2. Object
+The object is two-fold. While maintaining the lowest score of all players,
+force other players to receive points.
+
+###############################################################################
+
+3. How to Play
+
+    a) Shift Cards
+       At the start of each hand, each players chooses 3 cards from their
+       hand and passes those cards to another player. The direction passed
+       goes, left, right, across, then none (no cards passed).
+
+    b) The player holding the "2 of Clubs" begins play of the hand.
+
+    c) Going clockwise from there, each player must follow suit. If a
+       player has no cards of that suit, the player is free to play any
+       other card.
+
+       When a Heart is played, this is known as "Breaking Hearts".
+
+       On the first trick, no Hearts or the "Queen of Spades" may be played.
+       The exception to this is if a player holds only those cards. If a
+       player has only hearts plus the "Queen of Spades", the Queen must be
+       played first.
+
+    d) The "winner" of each trick becomes the leading player of the next
+       trick. Until a player has played a Heart (Breaking Hearts), no Heart
+       card may be lead.
+
+    e) Play stops when a player reaches 100 points or greater. The player
+       with the lowest number of points wins the game.
+
+###############################################################################
+
+4. Scoring
+
+Each Heart is worth one point. The "Queen of Spades" is worth thirteen
+points.
+
+At the end of the hand, each player adds their points to a running total.
+
+However, if a player has 26 points for the hand (took all Hearts plus the
+"Queen of Spades", then this is known as "Shooting the Moon". In such a
+case, the player does not gain any points, but all other players gain
+26 points.
+
+###############################################################################
+
+5. Playing a card
+
+To play a card type the value followed by the first letter of the suit.
+
+For example, for the Ten of Clubs, type "10C". The letter may be
+uppercase or lowercase.
+
+###############################################################################
+
